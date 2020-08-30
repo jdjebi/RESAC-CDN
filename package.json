@@ -1,12 +1,20 @@
 {
-  "name": "CdnServer",
+  "name": "resac-cdn",
   "version": "1.0.0",
-  "description": "serving static files",
+  "description": "Serveur de fichiers statics",
   "main": "server.js",
-  "author": "serge bruno <sergebruno378@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
   "dependencies": {
-    "express": "^4.17.1",
-    "ejs": "^3.1.5"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  
+  "engines": {
+    "node": "12.16.1"
   }
 }

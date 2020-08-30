@@ -14,4 +14,8 @@ app.use((req, res) => {
   res.status(404).render("404.ejs");
 });
 
-app.listen(3800);
+
+const PORT = process.env.PORT || 3800;
+
+app.listen(PORT);
+
